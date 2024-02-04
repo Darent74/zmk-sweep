@@ -46,7 +46,7 @@
         left_layer {
             bindings = <
 &kp ESC    &kp AT_SIGN           &kp HASH           &kp DOLLAR         &kp PERCENT        &kp CARET                  &kp AMPERSAND         &kp ASTERISK           &td COLON SEMICOLON   &kp BACKSPACE
-&kp TAB    &kp LC(EQUAL)         &kp SQT            &kp SINGLE_QUOTE   &kp DEL            &td HOME NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &td END PIPE          &kp ENTER
+&kp TAB    &kp LC(EQUAL)         &kp LC(MINUS)      &kp SINGLE_QUOTE   &kp DEL            &td HOME NON_US_BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &td END PIPE          &kp ENTER
 &kp GRAVE  &kp NON_US_BACKSLASH  &kp DOUBLE_QUOTES  &kp DOUBLE_QUOTES  &kp EXCLAMATION    &sk RIGHT_ALT              &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &td MINUS UNDERSCORE  &to 2
 &to 0      &sk LEFT_SHIFT                                                                                                                                         &kp SPACE             &to 3
             >;
